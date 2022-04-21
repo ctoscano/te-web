@@ -7,6 +7,6 @@
   "author": "Cesar Toscano <hello@ctoscano.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "BASE_PATH=\"/te-web\"; (cd ../te-studio && yarn build && yarn export) && cp -r ../te-studio/out/* ./docs"
+    "build": "(cd ../te-studio && yarn build && yarn export) && cp -r ../te-studio/out/* ./docs"
   }
 }
