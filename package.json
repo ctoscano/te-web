@@ -1,0 +1,12 @@
+{
+  "name": "te-web",
+  "version": "1.0.0",
+  "description": "Deployed website for TE Lighting Studio",
+  "main": "index.js",
+  "repository": "git@github.com:ctoscano/te-web.git",
+  "author": "Cesar Toscano <hello@ctoscano.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "(cd ../te-studio && yarn build && yarn export) && cp -r ../te-studio/out/* ./public"
+  }
+}
