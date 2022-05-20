@@ -7,6 +7,6 @@
   "author": "Cesar Toscano <hello@ctoscano.com>",
   "license": "UNLICENSED",
   "scripts": {
-    "build": "(cd ../te-lighting-web && yarn build && yarn export) && cp -r ../te-lighting-web/out/* ./docs"
+    "build": "(cd ../te-studio && yarn build && yarn export) && cp -r ../te-studio/out/* ./docs"
   }
 }
